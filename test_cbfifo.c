@@ -72,11 +72,11 @@ int test_cbfifo()
   int test_passed;
   test_passed = test_enqueue_dequeue();
 
-  printf("\n No of tests passed  %d", test_passed);
+  //printf("\n No of tests passed  %d", test_passed);
   current_length = cbfifo_length();
-  printf("\n %d", current_length);
+  //printf("\n %d", current_length);
   total_capacity = cbfifo_capacity();
-  printf("\n %d", total_capacity);
+  //printf("\n %d", total_capacity);
 
   return (0);
 
