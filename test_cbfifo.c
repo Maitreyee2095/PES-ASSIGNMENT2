@@ -20,13 +20,13 @@ int test_enqueue_dequeue()
   test[0] = cbfifo_enqueue(str, 10);
   test[1] = cbfifo_enqueue(buff, 0);
         //check enqued bytes
-  printf("\n enqued byte %lu",test[1]);
+  //printf("\n enqued byte %lu",test[1]);
  	//dequeue 10 bytes data
   test[2] = cbfifo_dequeue(buff, 10);
 
  	//check if current length has become 0;
   len = cbfifo_length();
-  printf("\n length is %lu", len);
+  //printf("\n length is %lu", len);
   if (len == 0)
     test_enqueue_success++;
 
@@ -35,7 +35,7 @@ int test_enqueue_dequeue()
   test[5] = cbfifo_dequeue(buff, 10);
  	//length check
   len = cbfifo_length();
-  printf("\n length is %lu", len);
+ // printf("\n length is %lu", len);
 
   test[6] = cbfifo_enqueue(buff1, -10);
   test[7] = cbfifo_enqueue(buff2, 20);
@@ -48,7 +48,7 @@ int test_enqueue_dequeue()
   len = cbfifo_length();
   if (len == 0)
     test_enqueue_success++;
-  printf("\n length is %lu", len);
+  //printf("\n length is %lu", len);
 
   test[13] = cbfifo_enqueue(buff, 5);
   test[14] = cbfifo_dequeue(buff, 10);
