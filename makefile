@@ -1,2 +1,2 @@
-cbfifomake: cbfifo.c test_cbfifo.c
-	gcc -o cbfifomake cbfifo.c test_cbfifo.c -I.
+llfifomake: llfifo.c test_llfifo.c
+	gcc -o llfifomake llfifo.c test_llfifo.c -I.
