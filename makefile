@@ -1,2 +1,2 @@
-llfifomake:main.o llfifo.o test_llfifo.o cbfifo.o test_cbfifo.o
-	gcc -o -Wall -Werror llfifomake main.o cbfifo.o test_cbfifo.o  llfifo.o test_llfifo.o -I.
+llfifomake:main.c llfifo.c test_llfifo.c cbfifo.c test_cbfifo.c
+	gcc -o -Wall -Werror llfifomake main.c cbfifo.c test_cbfifo.c  llfifo.c test_llfifo.c -I.
