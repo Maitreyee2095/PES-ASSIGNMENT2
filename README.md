@@ -26,3 +26,6 @@ CIRCULAR BUFFER
 1) IS OF FIXED LENGTH
 2) COPIES THE DATA ACROSS THE LIST 
 3) WHILE DEQUEING IF USER ASKS FOR MORE DATA THAN THE CAPACITY,IT WILL DEQUEUE THE ELEMENTS TO ITS CAPACITY AND SET LENGTH TO 0
+
+
+compiling the make file : download the make file and all the c files and h files in one folder, open the terminal in the folder and just enter make, code will compile itself to create an object executable file llfifo.o.
