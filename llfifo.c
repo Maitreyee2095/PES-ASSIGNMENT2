@@ -1,7 +1,7 @@
 /*
  * llfifo.c - llfifo implementation
  * 
- * Author: Maitreyee Rao
+ * Author: Maitreyee Rao,maitreyee.rao@colorado.edu
  *
  *code inspiration : Howdy Pierce, howdy.pierce@colorado.edu
  * 
